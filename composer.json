@@ -1,0 +1,19 @@
+{
+    "require": {
+        "symfony/finder": "^5.4",
+        "vlucas/phpdotenv": "3.6",
+        "illuminate/database": "5.7",
+        "illuminate/pagination": "5.7"
+    },
+    "autoload": {
+        "classmap": [
+            "modelos/"
+        ],
+        "psr-4": {
+            "Models\\": "Models/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    }
+}
