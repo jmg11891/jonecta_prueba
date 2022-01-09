@@ -1,0 +1,2 @@
+SELECT * FROM `productos` order by stock desc limit 1
+
